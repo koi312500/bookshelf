@@ -21,7 +21,7 @@ export default function RootLayout({
         <body className={`${inter.className} min-h-screen bg-gray-100 text-gray-800`}>
         <header className="bg-blue-700 text-white p-4 shadow-lg sticky top-0 z-50">
             <div className="container mx-auto">
-                <h1 className="text-3xl font-bold text-center tracking-tight">나의 온라인 서재</h1>
+                <h1 className="text-3xl font-bold text-center tracking-tight">대전과학고등학교 과학자의 서재</h1>
             </div>
         </header>
 
