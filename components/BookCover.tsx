@@ -21,7 +21,6 @@ export default function BookCover({ book, onSelect, onDelete }: BookCoverProps) 
 
     // book.id가 undefined일 경우를 대비 (UIBook 타입에 id가 optional로 되어있다면)
     // 하지만 db.ts에서 id는 BookRecord에 필수이므로 UIBook에도 id가 있어야 함
-    const bookIdForAria = book.id ?? 'unknown-book';
 
     return (
         <div className="group relative bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1.5 aspect-[2/3] flex flex-col overflow-hidden border border-slate-200">
